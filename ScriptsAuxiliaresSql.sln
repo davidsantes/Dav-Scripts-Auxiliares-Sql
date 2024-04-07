@@ -35,7 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Control de calidad de base 
 		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Triggers.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Triggers.sql
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{7472FE14-83B5-4CFD-A365-878F8CADFE70}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B0A8FA43-4B01-4789-B7A0-B00676CCAFB7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
