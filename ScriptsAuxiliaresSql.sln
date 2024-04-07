@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataDefinitionLanguage-DDL", "DataDefinitionLanguage-DDL", "{D067CB01-6756-406C-A855-EAB9D6C8D597}"
+	ProjectSection(SolutionItems) = preProject
+		DataDefinitionLanguage-DDL\Cambio owner diagrama.sql = DataDefinitionLanguage-DDL\Cambio owner diagrama.sql
+		DataDefinitionLanguage-DDL\Crear tabla para Auditoria Ddl.sql = DataDefinitionLanguage-DDL\Crear tabla para Auditoria Ddl.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataManipulationLanguage-DML", "DataManipulationLanguage-DML", "{47FCC01E-E72C-4030-A922-0E373F4514CE}"
+	ProjectSection(SolutionItems) = preProject
+		DataManipulationLanguage-DML\Crear tabla para Auditoria Dml.sql = DataManipulationLanguage-DML\Crear tabla para Auditoria Dml.sql
+		DataManipulationLanguage-DML\Iterar conjunto de datos.sql = DataManipulationLanguage-DML\Iterar conjunto de datos.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Control de calidad de base de datos", "Control de calidad de base de datos", "{82AFF058-4139-4A1E-B3E2-5F77B4877DB1}"
+	ProjectSection(SolutionItems) = preProject
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Dependencias_Entre_BDs.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Dependencias_Entre_BDs.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Campos_Declarados_Sin_Precision.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Campos_Declarados_Sin_Precision.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_DDL.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_DDL.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Exceso_Lineas_Codigo.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Exceso_Lineas_Codigo.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Iteraciones.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Iteraciones.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Nombre_Empieza_Por_SP_.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Nombre_Empieza_Por_SP_.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Select_Asterisco.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Select_Asterisco.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Set_RowCount.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Set_RowCount.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Sql_Dinamico.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Sql_Dinamico.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Variable_Identity.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Con_Variable_Identity.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Sin_Set_No_Count.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Procedimientos_Almacenados_Sin_Set_No_Count.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Tablas_Con_Campos_Con_Collation_Diferente_A_BDD.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Tablas_Con_Campos_Con_Collation_Diferente_A_BDD.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Tablas_Con_Campos_No_Recomendados.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Tablas_Con_Campos_No_Recomendados.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Tablas_Con_Campos_Tipo_Numerico_Con_Escala_0.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Tablas_Con_Campos_Tipo_Numerico_Con_Escala_0.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Tablas_Sin_Primary_Key.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Tablas_Sin_Primary_Key.sql
+		DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Triggers.sql = DataDefinitionLanguage-DDL\Control de calidad de base de datos\Get_Triggers.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{7472FE14-83B5-4CFD-A365-878F8CADFE70}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82AFF058-4139-4A1E-B3E2-5F77B4877DB1} = {D067CB01-6756-406C-A855-EAB9D6C8D597}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19F5AE81-8F72-4F53-9F2B-CBC766A244C5}
+	EndGlobalSection
+EndGlobal
